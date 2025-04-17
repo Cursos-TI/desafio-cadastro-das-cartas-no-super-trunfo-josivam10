@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 
-    char estado, capital;
+    char estado[100], capital[99];
     int populacao, ddd;
     float area;
     float pib;
@@ -11,13 +11,13 @@ printf ("BEM VINDO AO JOGO \n");
 printf ("EXEMPLO DO JOGO! \n");
 printf("Carta 1 \n");
 printf("Estado: Rio de Janeiro \n");
-printf("Código: 021 \n");
+printf("Codigo: 021 \n");
 printf("Capital: Rio de Janeiro \n");
-printf("População: 6748000 \n");
-printf("Área: 1200.25 km² \n");
-printf("PIB: 300.50 bilhões de reais \n");
-printf("Número de Pontos Turísticos: 30 \n");
-printf("____________________________");
+printf("Populacao: 6748000 \n");
+printf("Area: 1200.25 km² \n");
+printf("PIB: 300.50 bilhoes de reais \n");
+printf("Numero de Pontos Turísticos: 30 \n");
+printf("____________________________ \n");
     printf("VAMOS COMEÇAR O JOGO \n");
     printf("Digite a carta 2 \n");
     printf("Qual o nome do estado: \n");
@@ -34,14 +34,16 @@ printf("____________________________");
     scanf("%f",&pib);
     printf("Digite a quantidade de pontos turisticos: \n");
     scanf("%d",&pontosT);
-    printf("AQUI ESTA SUA CARTA!");
+    printf("-------------------- \n");
+    printf("____________________ \n");
+    printf("AQUI ESTA SUA CARTA! \n");
     printf("Estado: %s \n",estado);
-    printf("Código: %d \n",ddd);
+    printf("Codigo: %d \n",ddd);
     printf("Capital: %s \n",capital);
-    printf("População: %d \n",populacao);
-    printf("Área: %.2f \n",area);
-    printf("PIB: %.2f bilhões de reais \n",pib);
-    printf("Número de Pontos Turísticos: %d \n",pontosT);
+    printf("Populacao: %d \n",populacao);
+    printf("Area: %.2f \n",area);
+    printf("PIB: %.2f bilhoes de reais \n",pib);
+    printf("Numero de Pontos Turisticos: %d \n",pontosT);
 
     return 0;
 }
